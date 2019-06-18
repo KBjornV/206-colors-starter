@@ -31,6 +31,7 @@ header {
   width: 100%;
   height: 320px;
   float: left;
+  clear: right;
 }
 
 #column-1 {
@@ -59,8 +60,15 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  .col-3 {
+    width: 50%;
+    height: 320px;
+    float: left;
+    clear: right;
+  }
+
   header {
-    background-color: white;
+    background-color: tan;
   }
 
   #column-1 {
@@ -76,7 +84,7 @@ footer {
   }
 
   footer {
-    background-color: white;
+    background-color: tan;
   }
   
 }
@@ -84,6 +92,14 @@ footer {
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+  
+  .col-3 {
+    width: 33.33%;
+    height: 320px;
+    float: left;
+    clear: right;
+  }
+
   header {
     background-color: silver;
   }
